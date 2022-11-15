@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.center {
+    display: flex; 
+    width: 1280;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    width: 50%;
+    padding-top: 30px;
+    text-align: right;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.center .texto-sobre span {
+    color: #017143;
+}
+
+section {
+    position: relative;
+    height: calc(100% - 200px);
+}
+
+.texto-sobre h1 {
+    font-size: 50px;
+}
+
+.texto-sobre p {
+    margin: 20px 0;
+    max-width: 800px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.texto-sobre button {
+    border: 0;
+    background-color: #017143;
+    color: white;
+    width: 110px;
+    height: 35px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section .extra {
+    position: absolute;
+    background-color: #017143;
+    width: 900px;
+    height: 1000px;
+    border-radius: 50%;
+    bottom: -250px;
+    right: -450px;
+}
+
+#face {
+    width: 20px;
+}
+
+.Contact_Us {
+
+    top: 596px;
+    padding: 10px 20px;
+}
+
+.social-media {
+    position: absolute;
+    right: 55rem;
+}
+
+.Produtos {
+    position: absolute;
+    right: 55rem;
+    top: 595px;
+}
+
+#copo01, #copo02, #copo03{
+    transition: width 2s;
+}
+
+#copo01:hover {
+    width: 110px;
+}
+
+#copo02:hover {
+    width: 110px;
+}
+
+#copo03:hover {
+    width: 110px;
+}
